@@ -1,0 +1,48 @@
+{
+   "title" : "Trash information ",
+   "Trashes": [
+      {
+         "type": 1,
+         "name": "Cartons_Trash",
+         "Address": "Tel-aviv",
+         "Capacity": "55kg",
+         "Picture": "https://www.gov.il/blobFolder/generalpage/not_for_publication_pics/he/waste_photos_bin_grey.png"
+         
+      },
+      {
+         "type": 2,
+         "name": "Blue_Trash",
+         "Address": "Ramat_Gan",
+         "Capacity": "70kg",
+         "Picture": "https://www.alon-group.com/wp-content/uploads/2016/07/DSC00477.jpg"
+      },
+      {
+         "type": 3,
+         "name": "Orange_Trash",
+         "Address": "Haifa",
+         "Capacity": "45kg",
+         "Picture": "http://cdn.be106.net/p/Be75bf9ef26efb5.jpg"
+      },
+      {
+         "type": 4,
+         "name": "Purple_Trash",
+         "Address": "Tel-aviv",
+         "Capacity": "75kg",
+         "Picture": "https://www.alon-group.com/wp-content/uploads/2016/07/DSC00507.jpg"
+      },
+      {
+         "type": 5,
+         "name": "Grey_Trash",
+         "Address": "Ashkelon",
+         "Capacity": "50kg",
+         "Picture": "https://www.gov.il/blobFolder/generalpage/not_for_publication_pics/he/waste_photos_bin_grey.png"
+      },
+      {
+         "type": 6,
+         "name": "Green_Trash",
+         "Address": "Tel-aviv",
+         "Capacity": "60kg",
+         "Picture": "https://www.greenkoala.co.il/wp-content/uploads/2014/02/120-litre-green-recycling-wheelie-bin1.jpg"
+      }
+   ]
+}
