@@ -290,7 +290,7 @@
             font-size: 50px;
         }
         #report_form1{
-            margin: 0 auto;
+          top: 30px;
            position: relative;
            text-align: center;
         }
@@ -976,7 +976,7 @@
        
 
         #report_form1{
-            margin: 0 auto;
+            margin-top: 20px;
            position: relative;
            text-align: center;
         }
@@ -1146,13 +1146,14 @@
         }
         .make-it-slow {
             margin: 0 auto;
+            /* top: 10px; */
             position: relative;
             text-align: center;
             width: 90%;
-            height: 80px;
+            height: 40px;
             /* margin-top: 10px; */
-             bottom: 50px;
-            font-size:40px;
+             bottom: 40px;
+            font-size:30px;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
             color: #0a0a0a;

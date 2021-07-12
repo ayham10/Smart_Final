@@ -80,11 +80,10 @@ else {
      
   </div>
   
+  
 </nav>
     
-        <div class="make-it-slow">
-        Edit Profile
-       </div>
+<h1 id="report_form1">Edit Profile</h1>
        
   <form id="Form_" action="get_form.php" method="POST">
 
