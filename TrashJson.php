@@ -70,7 +70,7 @@ session_start();
 </nav>
 
 
-<h1  class="make-it-slow"  id="Trashes_Json"></h1>
+<h1    id="Trashes_Json"></h1>
 <section id="_Get_Json">
 <img title="trash" alt="trash" id="imgJson" >
 <br>

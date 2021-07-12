@@ -104,9 +104,9 @@ if (isset($_GET["state"]) and $_GET["state"] == "edit" and isset($_GET["TrashId"
 </nav>
     
 
-        <div class="make-it-slow">
-        Add a report
-       </div>
+        <h1 id="report_form1">Add a report</h1>
+        
+      
        
   <form id="Form_" action="get_form.php" method="POST">
 

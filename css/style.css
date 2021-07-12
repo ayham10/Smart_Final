@@ -27,7 +27,7 @@
         border: none;
     }
     
-    @media (min-width: 990px) {
+    @media (min-width: 791px) {
         header {
             width: 100%;
             height: 90px;
@@ -224,6 +224,13 @@
         }
 
 
+        #container { 
+            margin-top: 100px;
+            widows: 900px;
+         
+        }
+
+
         /* form --------------------------------------------------------------------------------------*/
         * {
             box-sizing: border-box;
@@ -273,12 +280,19 @@
             clear: both;
         }
         .make-it-slow {
+            position: relative;
            margin-bottom: 20px;
            margin-top: 20px;
+           height: 110px;
             text-align: center;
             font-weight:bolder ;
             width: 100%;
             font-size: 50px;
+        }
+        #report_form1{
+            margin: 0 auto;
+           position: relative;
+           text-align: center;
         }
   
         /* Transition to a bigger shadow on hover */
@@ -355,6 +369,11 @@
             justify-content: space-between;
             border: 1px solid lightgrey;
             border-radius: 5px;
+        }
+        #Trashes_Json{
+            margin: 0 auto;
+            position: relative;
+            text-align: center;
         }
         .slide-controls .slide {
             height: 100%;
@@ -696,15 +715,8 @@
 
         .Add_A_New_Report {
             /* margin: 0 auto; */
-            font-weight: bold;
-            font-size:23px;
-            text-align: center;
-            color:black;
-            
-            text-align: center;
-            font-family: Arial;
-            position: absolute;
-            left: 41.5%;
+            position: relative;
+            left: 44.5%;
         }
         .Add_A_New_Report:hover {
             background-color: #4CAF50;
@@ -720,7 +732,7 @@
     /* ------------------------------------------------ mobile------------------------ */
     /* ------------------------------------------------------------------------------- */
     
-    @media (max-width: 990px) {
+    @media (max-width: 790px) {
         header {
             display: none;
         }
@@ -738,7 +750,7 @@
         }
         .wrapper {
             width: 100%;
-            height: 1000px;
+            height: 770px;
             margin: 0 auto;
             justify-content: center;
             clear: both;
@@ -791,11 +803,12 @@
             color: #04AA6D;
            
         }
+        
         .logotext:hover{
             color: #0a0e0a;
             }
         #list-group {
-            width: 450px;
+            width: 350px;
             height: 340px;
             margin: 0 auto;
             margin-top: 50px;
@@ -863,13 +876,7 @@
        
         .Add_A_New_Report {
             /* margin: 0 auto; */
-            text-align: center;
-            font-weight: bold;
-            font-size:23px;
-            color:black;
             
-            font-family:Arial, Helvetica, sans-serif;
-            position: absolute;
             left: 27%;
         }
         .Add_A_New_Report:hover {
@@ -877,19 +884,19 @@
             color: black;
         }
         .table2 {
-            width: 470px;
+            width: 370px;
             text-align: center;
             /* margin-left: 5px ; */
-            font-size: medium;
+            font-size: 11px;
             margin: 0 auto;
           
         } 
         .table2 td {
             text-align: center;
-            font-size: large;
+            font-size: 11px;
         }
       .table2  .th_dir{
-        font-size:larger;
+        font-size:11px;
         }
  /* -----------------------------------------FORM-------------------------------------- */
 
@@ -934,12 +941,27 @@
             height: 200px;
             height: 250px;
         }
-
         .table1 {
-            width: 450px;
+            width: 370px;
+            text-align: center;
+            /* margin-left: 5px ; */
+            font-size: 11px;
+            margin: 0 auto;
+          
+        } 
+        .table1 td {
+            text-align: center;
+            font-size: 11px;
+        }
+      .table1  .th_dir{
+        font-size:11px;
+        }
+/* 
+        .table1 {
+            width: 350px;
             text-align: center;
             margin: auto ;
-            font-size: larger;
+            font-size: 11px;
         }
        
 
@@ -950,8 +972,19 @@
         }
         .th_dir{
             font-size:large;
-        }
+        } */
        
+
+        #report_form1{
+            margin: 0 auto;
+           position: relative;
+           text-align: center;
+        }
+        #Trashes_Json{
+            margin: 0 auto;
+            position: relative;
+            text-align: center;
+        }
         #sortTable_{
             width:150px;
             /* height: 35; */
@@ -959,7 +992,7 @@
             position: relative;
             margin-top: 20px;
             left:33% ;
-            font-size: 20px;
+            font-size: 14px;
             font-weight: bold;
         }
         .Trash_page h3{
@@ -1005,10 +1038,11 @@
         }
         
         #imgJson{
-            border-radius: 30%;
-            height: 300px;
-            width: 300px;
-            margin-top: 0px;
+         
+                border-radius: 30%;
+                height: 239px;
+                width: 200px;
+                margin-top: 40px;
 
         }
         /* ------------------------------------------------------------------------------- */
@@ -1115,10 +1149,10 @@
             position: relative;
             text-align: center;
             width: 90%;
-            height: 30px;
-            margin-top: 10px;
-            margin-bottom: 50px;
-            font-size:50px;
+            height: 80px;
+            /* margin-top: 10px; */
+             bottom: 50px;
+            font-size:40px;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
             color: #0a0a0a;
@@ -1343,6 +1377,11 @@
             font-size: 20px;
             font-weight: 500;
             cursor: pointer;
+        }
+        #container { 
+            margin-top: 100px;
+            widows: 500px;
+          
         }
         /* ------------------------------------------------------------------------------- */
         /* ------------------------------------------------ End ------------------------ */

@@ -67,11 +67,14 @@ session_start();
   
 </nav>
  
+<div id="container">
+
 
 <div id="edit_profile_respons">
 
-    <div class="make-it-slow" class="titels">
-     Reports 
+   
+<div class="make-it-slow  titels" >
+     Reports
     </div>
                 <div class="table2">
             <table class="table table-dark">
@@ -117,6 +120,7 @@ $query = "SELECT * from tbl_226_Reports inner join  tbl_226_Trashes on tbl_226_R
 
 
         <a href="form1.php?state=insert" class="btn btn-light Add_A_New_Report"><b>Add a new report</b> </a>
+    </div>
     </div>
   </main>
   
